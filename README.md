@@ -23,7 +23,7 @@ Loan defaults represent a major risk for banks and lenders. A machine learning m
 - Jupyter Notebook
 
 ## Dataset
-- Source: Kaggle – LendingClub Loan Data
+- Source: Kaggle – [LendingClub Loan Data](https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv)
 - Features: loan amount, interest rate, loan term, annual income, debt-to-income ratio, credit history, loan grade, and others
 - Target:
   - 1 → Loan Default (Charged Off)
