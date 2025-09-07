@@ -50,11 +50,11 @@ Loan defaults represent a major risk for banks and lenders. A machine learning m
 
 ## Results
 **Logistic Regression**
-- ROC-AUC: ~0.70
+- ROC-AUC: ~0.714
 - Good interpretability
 
 **XGBoost**
-- ROC-AUC: ~0.71
+- ROC-AUC: ~0.761
 - Better recall for defaults after handling class imbalance
 
 **SHAP Insights**
