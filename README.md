@@ -71,7 +71,7 @@ loan-default-prediction/
 ## How to Run
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/loan-default-prediction.git
+git clone https://github.com/h-rishi16/loan-default-prediction.git
 cd loan-default-prediction
 ```
 
