@@ -3,7 +3,7 @@
 ## Overview
 This project predicts loan default risk using historical LendingClub loan data. The goal is to help banks and lending institutions make better credit risk decisions, reduce exposure to bad loans, and improve profitability.
 
-I developed two models:
+We developed two models:
 - Logistic Regression – interpretable baseline model
 - XGBoost – advanced model with stronger predictive performance
 
@@ -43,7 +43,7 @@ Loan defaults represent a major risk for banks and lenders. A machine learning m
 - Correlation analysis
 
 **3. Modeling**
-- Logistic Regression (baseline performance, ROC-AUC ~0.70)
+- Logistic Regression (baseline performance, ROC-AUC ~0.71)
 - XGBoost with imbalance handling (ROC-AUC ~0.76)
 
 **4. Model Explainability**
@@ -51,7 +51,7 @@ Loan defaults represent a major risk for banks and lenders. A machine learning m
 
 ## Results
 **Logistic Regression**
-- ROC-AUC: ~0.70
+- ROC-AUC: ~0.71
 - Good interpretability
 
 **XGBoost**
@@ -64,7 +64,7 @@ Loan defaults represent a major risk for banks and lenders. A machine learning m
 ## Repository Structure
 ```
 loan-default-prediction/
-│── Loan_Default_Prediction.ipynb   # Main notebook with EDA, preprocessing, and model training
+│── Loan-Default.ipynb              # Main notebook with EDA, preprocessing, and model training
 │── app.py                          # Streamlit web app for interactive predictions
 │── xgb_model.pkl                   # Trained XGBoost model saved with joblib
 │── xgb_features.pkl                # Feature names used in training
@@ -95,12 +95,8 @@ jupyter notebook
 streamlit run app.py
 ```
 
-## Deployment
-This project can be deployed for free using **Streamlit Cloud**.
-
-After pushing to GitHub, go to [Streamlit Cloud](https://streamlit.io/cloud), connect your repo, and deploy app.py.
-
 ## Web App Usage
+- Visit [Loan Default Predictor](https://h-rishi16-loan-default-prediction-app-uecn3j.streamlit.app)
 - Enter borrower details (loan amount, interest rate, grade, employment length, etc.)
 - The app predicts whether the borrower is **Likely to Default** or **Likely to Pay**, along with a probability score.
 
